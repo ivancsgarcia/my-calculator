@@ -1,0 +1,103 @@
+.App {
+  box-sizing: border-box;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.CalcContainer {
+  width: 500px;
+  margin: 20px auto;  
+  text-align: center;
+  padding: 20px;
+  background-color: #17181a;
+  border: 4px solid #38b000;
+  border-radius: 5px;
+  color: #ebebeb;
+}
+
+.CalcDisplay {
+  border: 2px solid #38b000;
+  height: 40px;
+  font-size: 2.5em;
+  text-align: right;
+  padding: 20px;
+  background: #17181a;
+  color: #ebebeb;
+  margin-bottom: 10px;
+}
+
+.ButtonContainer {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #17181a;
+}
+
+.CalcButtonNum {
+  height: 80px;
+    font-size: 2em;
+    justify-content: center;
+    color: #38b000;
+    background-color: #343a40;
+    border: 1px solid #343a40;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.CalcButtonNum:hover {
+  background-color: #212529;
+  border: 1px solid #212529;
+}
+
+.CalcButton:hover {
+  background-color: #008000;
+  border: 1px solid #008000;
+
+}
+
+.clear:hover {
+  background-color: #343a40;
+  border: 1px solid #343a40;
+}
+
+.CalcButton {
+  height: 80px;
+  font-size: 2em;
+  justify-content: center;
+  color: #f5f3f4;
+  background-color: #38b000;
+  border: 1px solid #38b000;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.clear {
+  height: 80px;
+  font-size: 2em;
+  justify-content: center;
+  color: #ebebeb;
+  background-color: #495057;
+  border: 1px solid #495057;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.CalcButtonName {
+  font-size: 2em;
+  justify-content: center;
+  color: #f5f3f4;
+  background-color: #38b000;
+  border: 1px solid #38b000;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.CalcButtonName:hover {
+  background-color: #343a40;
+  border: 1px solid #343a40;
+  color: #38b000;
+}
+
+.Name {
+  margin-top: 30px;
+}
